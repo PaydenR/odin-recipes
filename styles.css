@@ -1,13 +1,49 @@
 
-* {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  text-align: left;
+:root {
+  /* Brand Colours */
+  --brand-primary: #b50d42;
+  --brand-secondry: #f56492;
+  --brand-dark: #52021b;
+  --brand-light: #ffd7e3;
+
+  /* Could also add brand typography, spacing or other rules etc */
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+}
 
-* {
-  background-color: #FFF2FB; /* pale pink */
+h1 {
+  color: var(--brand-primary);
+  font-size: 24px;
+}
+
+h2 {
+  color: var(--brand-secondry);
+  font-size: 20px;
+}
+
+h3 {
+  color: var(--brand-dark);
+  font-size: 18px;
+}
+
+h4 {
+  color: var(--brand-primary);
+  font-size: 14px;
+}
+
+button {
+  background-color: var(--brand-primary);
+  color: var(--brand-light);
+  border-color: var(--brand-light);
+  border-radius: 8px;
+  padding: 4px;
+  margin: 4px;
+}
+
+img {
+  width: 300px;
 }
